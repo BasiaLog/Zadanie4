@@ -133,5 +133,28 @@ text-align: left;
 }
 }
 
+@media (max-width: 767px) {
 
+.page-title {
+  font-size: 15px;
+  word-spacing: 1px;
+}   
+  
+.page-subtitle {
+  font-size: 10px;
+  margin: 0 0 52px 0;
+}
+       
+.splash {
+  height: 25vh;
+}
 
+.btn-primary {
+  bottom: -20px;
+}
+
+.navbar-toggler {
+  color: #718093;
+}
+
+}
