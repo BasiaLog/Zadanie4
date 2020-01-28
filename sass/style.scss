@@ -17,6 +17,49 @@ h1, h3{
 text-align: center;
 }
 
+/* Splash */
+/* <img class="w-100" src="" alt="image"> */
+.splash {
+  height: 100vh;
+  position: relative;
+  background-image: url('https://i.postimg.cc/3JDK4YdL/gray-white-click-pencil-159585.jpg');
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 0% 0%;
+  }
+  
+.splash-inner {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  }
+  
+.page-title {
+  color: #3d3d3d;
+  font-size: 60px;
+  margin: 48px 0 0 0;
+  position: relative;
+  font-family: 'Open Sans', sans-serif;
+  }
+  
+.page-subtitle {
+  color: #3d3d3d;
+  font-size: 30px;
+  margin: 48px 0 0 0;
+  }
+
+.btn-primary {
+  position: absolute;
+  bottom: -54px;
+    left: 50%;
+    width: 150px;
+    height: 35px;
+    transform: translateX(-50%);
+}
+
 /* Services */
 .services h5, p {
 text-align: center;
@@ -44,23 +87,29 @@ text-align: left;
 }
 
 
-@media (min-width: 576px) {
-.container {
-  max-width: 540px;
-}
-}
+/* Footer */
 
 .footer i {
-  font-size: 0;
-  font-size: 30px;
+  font-size: 15px;
   color: #FFC312;
   border: solid #FFC312;
-  width: 60px;
-  height: 60px;
-  line-height: 60px;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
   text-align: center;
   border-radius: 50%;
   }
+
+  .list-inline li {
+    font-size: 0;
+  }
+
+
+@media (min-width: 576px) {
+    .container {
+      max-width: 540px;
+    }
+    }
 
 @media (min-width: 768px) {
 .container {
